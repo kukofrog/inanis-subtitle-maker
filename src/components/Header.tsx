@@ -20,7 +20,12 @@ const Contents = styled.div`
   padding: 0 16px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+
+  h1 {
+    font-size: 32px;
+    color: var(--text-primary-color);
+  }
 `;
 
 const LocaleButton = styled.button`
@@ -42,9 +47,7 @@ function Header() {
   return (
     <Positioner>
       <Contents>
-        <Link href="/" locale={router.locale === 'en' ? 'kr' : 'en'}>
-          <LocaleButton>{router.locale}</LocaleButton>
-        </Link>
+        <h1>Inanis Subtitle Maker</h1>
       </Contents>
     </Positioner>
   );
