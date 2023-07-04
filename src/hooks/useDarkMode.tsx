@@ -4,9 +4,7 @@ function useDarkMode() {
   const [theme, setTheme] = useState<string | undefined>(undefined);
 
   useEffect(() => {
-    setTheme(
-      localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'),
-    );
+    setTheme('dark');
   }, []);
 
   useEffect(() => {

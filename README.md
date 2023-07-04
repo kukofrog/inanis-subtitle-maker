@@ -1,11 +1,3 @@
-# next.js-boilerplate
+# Inanis Subtitle Maker
 
-### Stacks & Features
-
-- typescript
-- styled-components
-- color theme
-- dark mode
-- next-i18next
-
-[DEMO](https://next-js-boilerplate-kuko.vercel.app/)
+[DEMO](https://inanis-subtitle-maker.vercel.app/)

@@ -32,7 +32,7 @@ const Home: NextPage = props => {
   return (
     <>
       <Head>
-        <title>{'Next.js Boilerplate'}</title>
+        <title>{'Inanis Subtitle Maker'}</title>
       </Head>
       <Container>
         <Header />
